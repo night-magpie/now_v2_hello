@@ -1,0 +1,17 @@
+{
+	"components": {
+	    "x-550126-hl-wrld": {
+	        "innerComponents": [
+				"now-button",
+				"now-dropdown"
+			],
+			"uiBuilder": {
+				"associatedTypes": ["global.core"],
+				"label": "Hello World V2",
+				"icon": "document-outline",
+				"description": "Reworked version with code splitting"
+			}
+	    }
+	},
+	"scopeName": "x_550126_rework_0"
+}
