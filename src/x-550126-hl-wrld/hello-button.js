@@ -11,4 +11,4 @@ const HelloButton = (props) => {
             </now-button>);
 }
 
-export default HelloButton;
+export {HelloButton};

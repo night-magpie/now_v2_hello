@@ -1,11 +1,11 @@
 import {createCustomElement, actionTypes} from '@servicenow/ui-core';
 import snabbdom from '@servicenow/ui-renderer-snabbdom';
 import styles from './styles.scss';
-import Clock from './clock';
-import HelloButton from './hello-button';
-import helloButtonAH from './hello-button-ah';
-import FormatDateTime,  {ACCEPTED_DATE_TIME_FORMATS} from './format-date-time';
-import formatDateTimeAH from './format-date-time-ah';
+import {Clock} from './clock';
+import {HelloButton} from './hello-button';
+import {helloButtonAH} from './hello-button-ah';
+import {FormatDateTime, ACCEPTED_DATE_TIME_FORMATS} from './format-date-time';
+import {formatDateTimeAH} from './format-date-time-ah';
 
 const {COMPONENT_BOOTSTRAPPED} = actionTypes;
 

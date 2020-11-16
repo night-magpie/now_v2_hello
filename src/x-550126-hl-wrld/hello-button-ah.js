@@ -16,4 +16,4 @@ const helloButtonAH = () => {
           console.log(coeffects.action.payload)}});
 }
 
-export default helloButtonAH;
+export {helloButtonAH};

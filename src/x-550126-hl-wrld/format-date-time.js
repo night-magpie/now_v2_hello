@@ -25,5 +25,4 @@ const FormatDateTime = (props) => {
             </now-dropdown>);
 }
 
-export default FormatDateTime;
-export {ACCEPTED_DATE_TIME_FORMATS};
+export {FormatDateTime, ACCEPTED_DATE_TIME_FORMATS};
